@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+  <!--	Head  -->
+	<head>
+  <!--  Meta  -->
+  	<meta charset="UTF-8" />
+  	<title>Notre site</title>
+  <!--  Styles  -->
+  	<link rel="stylesheet" href="index.css">
+    <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet'>
+	</head>
+  <!--	Header  -->
+	<header>
+      <!--	Nav (menu déroulant)  -->
+  <nav>
+  <ul>
+        <li class="menu"><a href=""><img class="console" src ="https://i.pinimg.com/originals/2d/2e/b5/2d2eb53ad9ce6a60d355205c0777ea77.png"><span class="marque">Atari</span></a>
+            <ul class="submenu">
+                <li><a href="">Atari 2600</a></li>
+                <li><a href="">Atari 2800</a></li>
+                <li><a href="">Atari 5200</a></li>
+                <li><a href="">Atari 7800</a></li>
+            </ul>
+        </li>
+        <li class="menu"><a href=""><img class="console" src="https://ih0.redbubble.net/image.438893675.5756/flat,750x1000,075,t.u1.jpg"><span class="marque">Commodore<span></a>
+            <ul class="submenu">
+                <li><a href="">Commodore 64GS</a></li>
+                <li><a href="">Commodore CDTV</a></li>
+                <li><a href="">Amiga CD32</a></li>
+            </ul>
+        </li>
+        <li class="menu"><a href=""><img class="console" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Nintendo_Logo_2017.png"><span class="marque">Nintendo<span></a>
+            <ul class="submenu">
+              <li><a href="">Game and Watch</a></li>
+              <li><a href="">NES</a></li>
+              <li><a href="">Game Boy</a></li>
+              <li><a href="">SNES</a></li>
+              <li><a href="">Nintendo 64</a></li>
+              <li><a href="">Game Cube</a></li>
+              <li><a href="">GBA</a></li>
+            </ul>
+        </li>
+        <li class="menu"><a href=""><img class="console" src="http://bandofgeeks.fr/wp-content/uploads/2016/01/Sega-Logo-Band-of-Geeks.jpeg"><span class="marque">Sega<span></a>
+            <ul class="submenu">
+              <li><a href="">Sega SG-1000</a></li>
+              <li><a href="">Master System</a></li>
+              <li><a href="">Mega Drive</a></li>
+              <li><a href="">Game Gear</a></li>
+              <li><a href="">Sega Nomad</a></li>
+              <li><a href="">Sega Neptune</a></li>
+              <li><a href="">Dreamcast</a></li>            
+            </ul>
+        </li>     
+  </nav>
+	</header>
+  <!--	Body  -->
+	<body>
+    <!-- image du site -->
+  	<div id="image">
+    	<img src="http://www.rom-game.fr/multimedia/agenda/160120_quizretrogaming.jpg" alt="imagesite">
+      <!-- login -->
+    <div class="login">
+    	<label for="uname"><b>Nom d'utilisateur</b></label>
+    	<input type="text" placeholder="Nom d'utilisateur" name="uname" required>
+			<label for="psw"><b>Mot de passe</b></label>
+    	<input type="Mot de passe" placeholder="Mot de passe" name="psw" required>
+			<button type="submit">Envoyer</button>
+    	<label>
+      <input type="checkbox" checked="checked" name="remember"> Se souvenir de moi
+    	</label>
+  	</div>
+  	</div>
+  <!-- jeu de la semaine -->
+  <div id="week">
+    <h1>Jeu de la semaine</h1>
+    <a href=""><img src="https://orig00.deviantart.net/5b27/f/2013/346/4/9/gaiden_cover_by_lerms-d6xqt47.png" alt="ninjagaiden" title="Ninja Gaiden"></a>
+    <p> Ninja Gaiden (忍者龍剣伝, Ninja Ryūkenden, parfois appelé Shadow Warriors en Europe) est une série de jeux vidéo d'action de la société japonaise Tecmo. Elle est apparue sur borne d'arcade en 1988 et s'est poursuivie sur quatre générations de consoles de jeux. La gameplay de la série tient du beat them all et aussi, suivant les épisodes, du jeu de plates-formes. Le joueur y incarne le ninja Ryu Hayabusa.</p>
+  </div>
+    
+    <!--	commentaires gauche console -->
+    <div id="comments_left">
+      <h5><a href="">Geek1</a> a testé pour vous <a href="">Game and Watch</a></h5><img src="http://gizarosso.free.fr/_media/img/small/19401-bubka-nintendosnes-2.png" alt="Rating console"/>
+      <p>Franchement la Game and Watch a beaucoup perdu de son charme, on ne peut même pas sauvegarder dans le cloud ! </p>
+      <h5><a href="">Geek2</a> a testé pour vous <a href="">Game Gear</a></h5><img src="http://gizarosso.free.fr/_media/img/small/19401-bubka-nintendosnes-2.png" alt="Rating console"/><img src="http://gizarosso.free.fr/_media/img/small/19401-bubka-nintendosnes-2.png" alt="Rating console"/><img src="http://gizarosso.free.fr/_media/img/small/19401-bubka-nintendosnes-2.png" alt="Rating console"/><img src="http://gizarosso.free.fr/_media/img/small/19401-bubka-nintendosnes-2.png" alt="Rating console"/>
+      <p>Je viens de retrouver dans mon grenier ma vieille Game Gear ! C'est vrai il faut tout de même 6 piles mais qu'est ce que c'est bon de se refaire les premiers Sonic !</p>
+    </div>
+  <!--	commentaires droite jeu -->
+    <div id="comments_right">
+      <h5><a href="">Geek3</a> a testé pour vous <a href="">E.T.</a></h5><img src="https://vignette.wikia.nocookie.net/megaman/images/b/bd/MegamanJump256x256.gif/revision/latest?cb=20111220060501" alt="Photo du jeu de la semaine"/><img src="https://vignette.wikia.nocookie.net/megaman/images/b/bd/MegamanJump256x256.gif/revision/latest?cb=20111220060501" alt="Photo du jeu de la semaine"/>
+      <p>E.T sur Atari 2600 est sûrement la pire purge visuelle que j'ai pu voir depuis ma naissance, je mets tout de même "2" pour le côté nostalgique</p>
+      <h5><a href="">Geek 4</a> a testé pour vous <a href="">Street of Rage 2</a></h5><img src="https://vignette.wikia.nocookie.net/megaman/images/b/bd/MegamanJump256x256.gif/revision/latest?cb=20111220060501" alt="Photo du jeu de la semaine"/><img src="https://vignette.wikia.nocookie.net/megaman/images/b/bd/MegamanJump256x256.gif/revision/latest?cb=20111220060501" alt="Photo du jeu de la semaine"/><img src="https://vignette.wikia.nocookie.net/megaman/images/b/bd/MegamanJump256x256.gif/revision/latest?cb=20111220060501" alt="Photo du jeu de la semaine"/><img src="https://vignette.wikia.nocookie.net/megaman/images/b/bd/MegamanJump256x256.gif/revision/latest?cb=20111220060501" alt="Photo du jeu de la semaine"/><img src="https://vignette.wikia.nocookie.net/megaman/images/b/bd/MegamanJump256x256.gif/revision/latest?cb=20111220060501" alt="Photo du jeu de la semaine"/>
+      <p>Il n'y a vraiment rien de mieux que l'adrénaline que procure Street of Rage 2 sur Megadrive, de la baston et de la bonne zik juste parfait !</p>
+    </div>  
+	</body>
+  <!--	Footer  -->
+	<footer>
+    <div id="socials">
+      <p><a href="www.retrogame.com/forum
+        " target="_blank">Forum</a> <a href="www.retrogame.com/faq
+        " target="_blank">F.A.Q.</a> <a href="mailto:retrogame@gmail.com">Nous contacter</a><img src="http://icons.iconarchive.com/icons/uiconstock/round-papercut-social/256/facebook-icon.png"alt="Facebook"/><img src="http://www.pngall.com/wp-content/uploads/2016/07/Twitter-Download-PNG.png"alt="Twitter"/></p>
+    </div>
+	</footer>
+</html>
